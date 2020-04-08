@@ -14,4 +14,4 @@ Please ensure before running this program that you meet the following requiremen
 
 ## Author
 
-👤 **Ashley Smith**
+**Ashley Smith**
