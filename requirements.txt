@@ -1,0 +1,36 @@
+Implement a simple banking app
+
+Write a program to implement a simple bank account. It should have the following features, which you should build one at a time.
+
+1. The initial balance should be 0. Show this on screen when the app runs. E.g:
+
+Your balance is $0
+2. Use puts to display a nice welcome message. E.g:
+
+Welcome to the banking app
+Your balance is $0
+3. Let the user determine the output. Ask them what they would like to do. If they type balance and hit return, show them their balance! Currently the only option is balance. E.g:
+
+Welcome to the banking app
+What would you like to do? (options: balance)
+*user types balance*
+Your balance is $0
+4. If the user types anything other than balance, say “Invalid selection!”
+
+Welcome to the banking app
+What would you like to do? (options: balance)
+*user types kanye*
+Invalid selection!
+Advanced challenges
+
+If you complete all of the other features and want more of a challenge, try the following.
+
+1. Ask the user for a password before proceeding (it's ok to hardcode the password for now).
+
+2. Add ‘deposit’ as an option. If they select it, ask ‘how much would you like to deposit?’. Update the balance and show it back to the user.
+
+3. Wrap the program in a loop so the user can view balance and then deposit over and over.
+
+4. The screen’s looking pretty ugly, figure out how to clear the screen between loops.
+
+5. Implement a withdraw feature. Make sure they can’t withdraw more than their total balance.
